@@ -18,5 +18,10 @@ mapjoin还有一个很大的好处是能够进行不等连接的join操作，如
 例子：
 select A.a ,A.b from A join B where A.a>B.a
 简单总结一下，mapjoin的使用场景：
-1. 关联操作中有一张表非常小
-2.不等值的链接操作
+1). 关联操作中有一张表非常小
+2).不等值的链接操作
+
+4.将二进制bin转换成64位的字符串
+    base64(binary bin)
+	将64位的字符串转换二进制值
+	unbase64(string str)
