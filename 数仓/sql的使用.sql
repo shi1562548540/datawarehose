@@ -25,3 +25,5 @@ select A.a ,A.b from A join B where A.a>B.a
     base64(binary bin)
 	将64位的字符串转换二进制值
 	unbase64(string str)
+	
+5.
